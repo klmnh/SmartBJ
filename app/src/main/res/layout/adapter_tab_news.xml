@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_tab_news_icon"
+        android:scaleType="fitXY"
+        android:background="#a000"
+        android:padding=".5dp"
+        android:src="@drawable/news_pic_default"
+        android:layout_width="100dp"
+        android:layout_height="60dp" />
+
+    <TextView
+        android:id="@+id/tv_tab_news_title"
+        android:text="顶顶顶顶顶顶顶顶顶"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/iv_tab_news_icon"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:maxLines="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_tab_news_time"
+        android:text="2017-09-18 22:00:00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_tab_news_icon"
+        android:layout_toEndOf="@+id/iv_tab_news_icon" />
+
+</RelativeLayout>
